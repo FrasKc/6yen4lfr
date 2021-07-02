@@ -1,0 +1,705 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0;
+    transition: all 0.5s;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white; 
+    overflow-x: hidden;}
+
+.imagetop {
+    position: relative; left :200px;
+}
+    
+
+figure h1 {
+    width: auto;
+    padding-top: 5vw;
+    font-size: 7vw;
+    position: relative; top:00px; right:650px;
+    color: white;
+    font-family: 'Share Tech Mono', monospace;
+    text-align: left;}
+
+figure h2 {
+    width: auto;
+    padding-top: 3vw;
+    font-size: 3vw;
+    position: relative; top:-100px; right:640px;
+    color: white;
+    font-family: 'Circular Std Bold',sans-serif;
+    text-align: left;}
+
+.Button a:link {
+        display: inline-block;
+        background-color: white;
+        border-radius: 10px;
+        border: 10px white;
+        text-decoration: none;
+        position: relative; top:-100px; right:640px;
+        color: rgb(179, 110, 66);
+        text-align: center;
+        font-size: 28px;
+        padding: 15px;
+        border-radius: 45px;
+        font-weight: bold;
+        font-size: 1.1em;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        width: 200px;
+        transition: all 0.5s;
+        cursor: pointer;
+        margin: 5px;
+        }
+
+        .Button a:visited{
+            color:rgb(179, 110, 66);
+        }
+        
+
+.voiture {
+    position: relative; top: -450px; left: 100px;
+    width: 900px;
+    height: 900px; 
+}
+
+body header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 98%;
+    padding: 1vw;
+    z-index: 9999;
+    background:white;
+    box-shadow: 0 0 1vw #555;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border: 10px compact black;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body header nav {
+    width: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 1vw;
+}
+
+    body header a img {
+        width: 3vw;
+    }
+
+    body figure img {
+        margin: 0;
+    }
+
+h1 {
+    width: 100%;
+    padding-top: 5vw;
+    font-size: 7vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;}
+
+nav.navbar a {
+    text-decoration: none; 
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav.navbar a:link{
+    color: black;
+}
+
+nav.navbar a:visited{
+    color: black;
+}
+
+a:link {
+    text-decoration: none;}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+}
+
+.blocgris {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    background: rgb(245,245,245);
+    height: auto;
+    width: 100%;
+    border-bottom: black;
+    box-shadow:0 0 0.5vw #555;
+}
+
+.containertext {
+    display: flex;
+    flex-wrap: wrap;
+    width: 45%;
+    margin: 0;
+    margin-bottom: 2%;
+}
+
+.illu{
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+main h1 {
+    color: rgb(104, 50, 32);
+    text-align: center;
+    font-size: 4vw;
+    font-family: 'Circular Std Bold',Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.containericone1 {
+    width: 10%;
+    align-items: center;
+    vertical-align: middle;
+    margin: auto;
+}
+
+.icone1{
+    width: 90%;
+}
+
+p{
+    padding-left: 20%;
+}
+
+.containericone2 {
+    width: 10%;
+    align-items: center;
+    vertical-align: middle;
+    margin: auto;
+}
+
+.icone2{
+    width: 90%;
+}
+
+.containericone3 {
+    width: 10%;
+    align-items: center;
+    vertical-align: middle;
+    margin: auto;
+}
+
+.icone3{
+    width: 90%;
+}
+
+section {
+    display: flex;
+    flex-wrap: wrap;
+    line-height: 1.4em;
+    margin: 0;
+    padding-left: 20%;
+    font-size: 1vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    text-align: left;
+    color: black;
+}
+
+main h3 {
+    font-family: 'Circular Std Bold',Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(104, 50, 32);
+    font-size: 2vw;
+    text-align: left;
+}
+
+.imagemed {
+    width: 35%;
+    align-items: center;
+    vertical-align: middle;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+.textp {
+    color: rgb(104, 50, 32);
+    font-weight: bold;
+}
+
+.texta {
+    color: rgb(179, 110, 66);
+    font-weight: bold;
+}
+
+main h5 {
+    width: 80%;
+    font-size: 1.3vw;
+    font-family: 'Circular Std Bold',Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(104, 50, 32);
+}
+
+main h2 {
+    width: 100%;
+    padding-top: 3vw;
+    font-size: 3vw;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(104, 50, 32);
+    text-align: center;}
+
+    figure {
+        width:100%;
+        margin:0;
+    }
+    figure img { 
+        width:100%;
+        height: auto;
+    }
+    .banniere {
+        position:absolute;
+        top:1vw;
+        left:42%;
+    }
+    .banniere h1 {
+        font-size:7vw;
+    }
+
+.image1 {
+    width: 40%;
+    align-items: center;
+    vertical-align: middle;
+    margin: auto;
+}
+
+.media {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 8vw;
+    width: 98%;
+    height:auto;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* background-color: tomato; */
+    text-align: left;}
+
+section.mediatxt {
+    width: 48%;
+    padding-left: 0;
+} 
+
+.illumed{
+    width: 90%;
+}
+
+.paramedia{
+    margin-top: 0;
+    padding-left: 0;
+}
+
+.titremedia{
+    font-family: 'Circular Std Bold',Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(104, 50, 32);
+    font-size: 2vw;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+.blocgris2{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    background: rgb(245,245,245);
+    height: auto;
+    width: 100%;
+    border-bottom: black;
+    box-shadow:0 0 0.5vw #555;
+}
+
+.blocgris2 h2 {
+    color: rgb(179, 66, 66);
+}
+
+.container {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    flex-flow: space-between;
+    align-items: baseline;
+    margin-bottom: 2%;
+}
+
+.item {
+    order: 4;
+    flex-grow: 4;
+    color: rgb(179, 66, 66);
+    text-align: center;
+    flex-basis: auto;
+}
+.flexboxtxt1 {
+    font-size: 4em;
+    font-weight:500;
+}
+
+.flexboxtxt2{
+    font-size: 1.5em;
+}
+
+h3 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:3vw;
+    text-align: center;
+}
+
+.programmeu {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:0.5vw;
+    width: 100%;
+    height: auto;
+}
+
+
+.container2 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    padding-left: 10%;
+}
+
+.item2{
+    width: 100%; 
+    text-align: left;
+
+}
+
+.flexboxtxt3 {
+    font-size:1.3vw;
+    text-align: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: rgb(104, 50, 32);
+}
+
+.flexboxtxt4 {
+    font-size: 2em;
+    width: 25%;
+}
+
+.image2 {
+    width: 40%;
+    align-items: center;
+    vertical-align: middle;
+    margin: auto;
+    margin-bottom: 2%;
+}
+
+.image2 img{
+    width: 100%;
+}
+
+.blocgris3 {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    background: rgb(245,245,245);
+    height: auto;
+    width: 100%;
+    border-bottom: black;
+    box-shadow:0 0 0.5vw #555;
+}
+
+.blocgris4 {
+    width: 100%;
+    background: rgb(245,245,245);
+    border-bottom: black;
+    box-shadow: 0px 3px 0.4vw #555;
+}
+
+
+.container3 {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-bottom: 10%;
+    align-items: baseline;
+    justify-content: center;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.container4 {
+    width: 700px;
+    height: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.bloc1 {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 55px;
+    border: solid;
+    border-color: rgb(245,245,245);
+    background-color: white;
+    padding: 50px;
+    width: 15%;
+    text-align: center;
+    height: 80%;
+}
+
+.bloc2 {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 55px;
+    border: solid;
+    border-color: rgb(245,245,245);
+    background-color: white;
+    padding: 50px;
+    width: 15%;
+    height: 80%;
+    text-align: center;
+    align-items: flex-start;
+    margin: 5%;
+}
+
+.bloc3 {
+    display: flex;
+    flex-wrap: wrap;
+    border-radius: 55px;
+    border: solid;
+    border-color: rgb(245,245,245);
+    background-color: white;
+    padding: 50px;
+    width: 15%;
+    height: 80%;
+    text-align: center;
+    align-items: flex-start;
+}
+
+.flexboxdiv{
+    display: flex;
+    flex-wrap: wrap;
+    width: 90%;
+    align-items: center;
+    vertical-align: middle;
+    margin: auto;
+}
+
+.flexboxtxt5{
+    width: 100%;
+    color: rgb(179, 110, 66);
+    font-size: 1.4em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    padding: 0;
+}
+
+.flexboxtxt6{
+    width: 100%;
+    color: rgb(179, 110, 66);    
+    font-size: 1.1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 0;
+}
+
+.Button2 {
+    display: block;
+    margin: auto;
+    margin-bottom: 10%;
+}
+
+.Button2 a:link {
+    display: block;
+    background-color: rgb(104, 50, 32);
+    border-radius: 11px;
+    border: 15px rgb(104, 50, 32);
+    text-decoration: none;
+    color: rgb(245,245,245);
+    padding: 15px;
+    border-radius:65px;
+    font-weight: bold;
+    font-size: 1.1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: auto;
+}
+
+.Button2 a:visited{
+    color: white;
+}
+
+.containerteam {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+
+.containerteam figure {
+    display: block;
+    justify-content: center;
+    margin: 1%;
+}
+
+.containerteam figure img{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+
+.containerteam figure figcaption{
+    margin: 0;
+}
+
+.containerteam figure figcaption p{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(104, 50, 32);
+    margin: 0;
+    padding: 0;
+}
+
+.textteam {
+    display: block;
+}
+
+.textteam p {
+    text-align: center;
+    margin: 0;
+    padding-inline: 20%;
+}
+
+h6 {
+    font-size:1vw;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: rgb(104, 50, 32);
+    margin: 1%;
+}
+
+#lequipe {
+    margin-bottom: 6%;
+}
+
+#scrollUp {
+    position: fixed;
+    transition: all 2s;
+    bottom : 10px;
+    right: -100px;
+    opacity: 0.5;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    height: 30%;
+    position: relative; top:50px;
+    justify-content: center;
+    padding: 5px;
+    background-color: rgb(52, 25, 16);
+    color: white;
+    z-index: 9999;
+}
+
+ul{
+    list-style-type: none;
+    line-height: 2.5em;
+}
+
+.imagefoot{
+    position: relative; right: 15%; top: 45px;
+}
+
+.legendfoot{
+    position: relative; right: 24%; top: 210px;
+    height: 5%;
+}
+
+.figcaption{
+    position: relative; top: 20px;
+}
+
+.firstlist{
+    position: relative; right: 5%;
+}
+
+.firstlist a:link{
+    color: white;
+}
+
+.firstlist a:visited{
+    color: white;
+}
+
+.secondlist{
+    position: relative; left: 5%;
+}
+
+.thirdlist{
+    position: relative; left: 10%; top: 25px;
+    text-decoration: none;
+}
+
+.containerfoot {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    position: relative; top: 40px;
+    justify-content: space-between;
+    /* background: aqua; */
+    align-items: center ;
+}
+
+.flexboxfootfacebook{
+    position: relative; left: 25%;
+}
+
+.flexboxfootlinkedin{
+    position: relative; left: 50%;
+}
+
+.flexboxfootleetchi{
+    position: relative; left: 75%;
+}
+
+#progress{
+	background-color: rgb(104, 50, 32);
+	height: 2.5px;
+	width: 0;
+	position: fixed;
+	top: 100px;
+	left: 0;
+	z-index: 9999;
+}
+
+.Button3 a:link{
+    display: inline-block;
+    background-color: rgb(104, 50, 32);
+    border-radius: 11px;
+    border: 15px rgb(104, 50, 32);
+    text-decoration: none;
+    color: rgb(245,245,245);
+    text-align: center;
+    padding: 15px;
+    border-radius:65px;
+    font-weight: bold;
+    font-size: 1.1em;
+    position: relative; left: 33%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;    
+}
+
+.Button3 a:visited {
+    color: rgb(245,245,245);
+}
