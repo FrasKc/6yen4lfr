@@ -6,6 +6,7 @@
     <link rel="icon" type="image/png" sizes="16x16" href="/static/4L.png">
     <meta charset="UTF-8">
     <link rel="stylesheet" href="/Sources/style.css">
+    <script src="/Sources/main.js"></script>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
 </head>
@@ -18,18 +19,18 @@
             <h1>6Y en 4L</h1>
             <h2>Participant au 4L TROPHY 2022</h2>
             <div class="Button">
-                <a href="static/sponso.pdf" target="_blank">Dossier de Sponsoring</a>
+                <a href="static/sponso.pdf" target="_blank">Sponsorisez-nous !</a>
+            </div>
                 <div class="voiture">
                     <img src="static/4L.png" alt="4L">
                 </div>
-            </div>
+            
         </figcaption>
     </figure>
 
     <header>
-
         <div class="imagetop">
-            <a href="index.php"><img src="static/logotmarron.png" alt="mon logo"></a>
+            <a href="/"><img src="static/logotmarron.png" alt="mon logo"></a>
         </div>
 
         <!-- Menu de navigation du site -->
@@ -46,26 +47,7 @@
     </header>
 
     <div id="progress"></div>
-    <script> window.onload = () => {
-    // Ecouteur d'évènement sur scroll
-    window.addEventListener("scroll", () => {
-        // Calcul de la hauteur "utile" du document
-        let hauteur = document.documentElement.scrollHeight - window.innerHeight
-
-        // Récupération de la position verticale
-        let position = window.scrollY
-
-        // Récupération de la largeur de la fenêtre
-        let largeur = document.documentElement.clientWidth
-
-        // Calcul de la largeur de la barre
-        let barre = position / hauteur * largeur
-
-        // Modification du CSS de la barre
-        document.getElementById("progress").style.width = barre+"px"
-     })
-    }
-    </script>
+   
 
     <main>
         <!-- Contenu principal -->
@@ -117,7 +99,7 @@
         </div>
 
         <div class="blocgris2">
-            <h2>LE 4L TROPHY EN CHIFFRES, C'ESTstatic.</h2>
+            <h2>LE 4L TROPHY EN CHIFFRES, C'EST...</h2>
             <div class="container">
                 <div class="item">
                     <span class="flexboxtxt1"> 3000 </br></span>
@@ -192,14 +174,14 @@
                     <span class="flexboxtxt5">PARTENARIAT</br>EN NATURE</br></br></span>
                     <span class="flexboxtxt6">Vous pouvez aussi nous aider à la préparation de la 4L en fournissant des biens matériels tels que :</br>
                         • Pièces mécaniques détachées</br>
-                        • Equipements obligatoire (fusée de détresse, boussole, extincteur, jerrican, trousse de secours, trousse à outils, carte routièrestatic.)</br>
+                        • Equipements obligatoire (fusée de détresse, boussole, extincteur, jerrican, trousse de secours, trousse à outils, carte routière...)</br>
                         • Fournitures scolaires et sportives pour l'association "Enfants du Désert"</br>
                         • Denrées alimentaires non périssables pour la Croix Rouge</br></span>
                 </div>
             </div>
 
             <div class="Button2">
-                <a href="static/sponso.pdf" target="_blank">Dossier de Sponsoring</a>
+                <a href="static/sponso.pdf" target="_blank">Sponsorisez-nous !</a>
             </div>
 
         </div>
@@ -210,21 +192,21 @@
                 <p>Nous sommes 6 étudiants en Création et Désign, Marketing et Communication et en Informatique à YNOV Lyon Campus. Le 4L Trophy est pour nous, plus qu'un simple voyage ! C'est un projet extrêmement formateur intégrant de nombreux défis à relever. Une expérience exceptionnelle, un dépassement de soi mais surtout, un beau test d'endurance et de détermination qui saura nous révéler pour notre entrée dans la vie active. La beauté de cet évènement c'est également son côté humanitaire, l'accent mis sur la solidarité et l'engagement éco-citoyen, des valeurs fortes, qui nous tiennent particulièrement à cœur. </p>
             </div>
             <div class="containerteam">
-                <figure>
+                <figure class="camillez">
                     <img src="static/Icon_Camille.png" alt=""/>
                     <figcaption>
                         <h6>Zwick Camille</h6>
                         <p>Présidente</p>
                     </figcaption>
                 </figure>
-                <figure>
+                <figure class="lorane">
                     <img src="static/Icon_Lorane.png" alt=""/>
                     <figcaption>
                         <h6>Helly Lorane</h6>
                         <p>Vice-présidente</p>
                     </figcaption>
                 </figure>
-                <figure>
+                <figure class="kevin">
                     <img src="static/Icon_Kevin.png" alt="">
                     <figcaption>
                         <h6>Macquignon Kévin</h6>
@@ -233,21 +215,21 @@
                 </figure>
             </div>
             <div class="containerteam">
-                <figure>
+                <figure class="camille">
                     <img src="static/Icon_Camille2.png" alt=""/>
                     <figcaption>
                         <h6>Ballouard Camille</h6>
                         <p>Secrétaire</p>
                     </figcaption>
                 </figure>
-                <figure>
+                <figure class="dimitri">
                     <img src="static/Icon_Dimitri.png" alt=""/>
                     <figcaption>
                         <h6>Serrano Dimitri</h6>
                         <p>Développeur Web</p>
                     </figcaption>
                 </figure>
-                <figure>
+                <figure class="celian">
                     <img src="static/Icon_Celian.png" alt="">
                     <figcaption>
                         <h6>Frasca Célian</h6>
@@ -326,13 +308,13 @@
          <strong>NOUS SUIVRE</strong>
         <div class="containerfoot">
                 <div class="flexboxfootinsta">
-                    <a href="https://www.instagram.com/6yen4l/" target="_blank"><img src="static/instagram.png" alt="instagram"></a>
+                    <a href="https://www.instagram.com/6yen4l/" target="_blank"><img id="insta" onmouseover=LoadNewimginsta(this) onmouseout=LoadOldimginsta(this) src="static/instagram.png" alt="instagram" ></a>
                 </div>
                 <div class="flexboxfootfacebook">
-                    <a href="https://www.facebook.com/6Y-en-4L-112686517277743" target="_blank"><img src="static/facebook.png" alt="facebook"></a>
+                    <a href="https://www.facebook.com/6Y-en-4L-112686517277743" target="_blank"><img id="facebook" onmouseover=LoadNewimgFace(this) onmouseout=LoadOldimgFace(this) src="static/facebook.png" alt="facebook"></a>
                 </div>
                 <div class="flexboxfootlinkedin">
-                    <a href="https://www.linkedin.com/company/6y-en-4l/" target="_blank"><img src="static/linkedin.png" alt="linkedin"></a>
+                    <a href="https://www.linkedin.com/company/6y-en-4l/" target="_blank"><img id="link" onmouseover=LoadNewimglink(this) onmouseout=LoadOldimglink(this) src="static/linkedin.png" alt="linkedin"></a>
                 </div>
                 <div class="flexboxfootleetchi">
                     <a href="https://www.leetchi.com/c/6-ynoviens-en-4l" target="_blank"><img src="static/leetchi.png" alt="leetchi"></a>

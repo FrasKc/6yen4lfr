@@ -8,8 +8,18 @@ body {
     background-color: white; 
     overflow-x: hidden;}
 
+
 .imagetop {
     position: relative; left :200px;
+    overflow: hidden;
+    transform: scale(.1);
+    transform: rotate(0deg);
+    transition: 1s ease-in-out;
+}
+
+.imagetop:hover {
+    transform: scale(1);
+    transform: rotate(-360deg);
 }
     
 
@@ -20,7 +30,8 @@ figure h1 {
     position: relative; top:00px; right:650px;
     color: white;
     font-family: 'Share Tech Mono', monospace;
-    text-align: left;}
+    text-align: left;
+}
 
 figure h2 {
     width: auto;
@@ -52,9 +63,18 @@ figure h2 {
         margin: 5px;
         }
 
-        .Button a:visited{
+    .Button:hover{
+        font-size: 20px;
+    }
+
+    .Button a:hover {
+        width: 25%;
+        transition: all 1s;
+    }
+
+    .Button a:visited{
             color:rgb(179, 110, 66);
-        }
+    }
         
 
 .voiture {
@@ -107,11 +127,22 @@ h1 {
 
 nav.navbar a {
     text-decoration: none; 
+    transition: all 0.5s;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 nav.navbar a:link{
     color: black;
+}
+
+nav.navbar a:hover {
+    font-size: 21px;
+    font:bold;
+    transition: all 0.5s;
+}
+
+nav.navbar a:active {
+    font-size: 22px;
 }
 
 nav.navbar a:visited{
@@ -131,12 +162,12 @@ main {
 .blocgris {
     display: flex;
     flex-wrap: wrap;
-    margin: 0;
+    margin-top: -10px;
     background: rgb(245,245,245);
     height: auto;
     width: 100%;
     border-bottom: black;
-    box-shadow:0 0 0.5vw #555;
+    box-shadow:0 0 1vw #555;
 }
 
 .containertext {
@@ -444,12 +475,20 @@ h3 {
     flex-wrap: wrap;
     border-radius: 55px;
     border: solid;
+    transition: all 1s;
     border-color: rgb(245,245,245);
     background-color: white;
     padding: 50px;
     width: 15%;
     text-align: center;
     height: 80%;
+}
+
+.bloc1:hover {
+    width: 30%;
+    height: 70%;
+    font-size: 21px;
+    transition: all 0.5s;
 }
 
 .bloc2 {
@@ -462,9 +501,17 @@ h3 {
     padding: 50px;
     width: 15%;
     height: 80%;
+    transition: all 1s;
     text-align: center;
     align-items: flex-start;
     margin: 5%;
+}
+
+.bloc2:hover {
+    width: 30%;
+    height: 70%;
+    font-size: 21px;
+    transition: all 0.5s;
 }
 
 .bloc3 {
@@ -472,6 +519,7 @@ h3 {
     flex-wrap: wrap;
     border-radius: 55px;
     border: solid;
+    transition: all 1s;
     border-color: rgb(245,245,245);
     background-color: white;
     padding: 50px;
@@ -479,6 +527,13 @@ h3 {
     height: 80%;
     text-align: center;
     align-items: flex-start;
+}
+
+.bloc3:hover {
+    width: 30%;
+    height: 70%;
+    font-size: 21px;
+    transition: all 0.5s;
 }
 
 .flexboxdiv{
@@ -511,6 +566,15 @@ h3 {
     display: block;
     margin: auto;
     margin-bottom: 10%;
+}
+
+.Button2:hover {
+    font-size: 22px;
+}
+
+.Button2 a:hover {
+    background-color: rgb(77, 75, 75);
+    transition: all 1s;
 }
 
 .Button2 a:link {
@@ -591,10 +655,14 @@ h6 {
 
 #scrollUp {
     position: fixed;
-    transition: all 2s;
     bottom : 10px;
+    transition: all 0.5s;
     right: -100px;
     opacity: 0.5;
+}
+
+#scrollUp:hover {
+    opacity: 1;
 }
 
 footer {
@@ -616,11 +684,14 @@ ul{
 
 .imagefoot{
     position: relative; right: 15%; top: 45px;
+    height: 3%;
 }
 
 .legendfoot{
     position: relative; right: 24%; top: 210px;
-    height: 5%;
+
+    height:3%;
+
 }
 
 .figcaption{
@@ -645,6 +716,7 @@ ul{
 
 .thirdlist{
     position: relative; left: 10%; top: 25px;
+    height: 5%;
     text-decoration: none;
 }
 
@@ -654,20 +726,30 @@ ul{
     flex-wrap: nowrap;
     position: relative; top: 40px;
     justify-content: space-between;
-    /* background: aqua; */
     align-items: center ;
+}
+
+.flexboxfootinsta{
+    height: 64px;
+    width: 64px;
 }
 
 .flexboxfootfacebook{
     position: relative; left: 25%;
+    height: 64px;
+    width: 64px;
 }
 
 .flexboxfootlinkedin{
     position: relative; left: 50%;
+    height: 64px;
+    width: 64px;
 }
 
 .flexboxfootleetchi{
     position: relative; left: 75%;
+    height: 64px;
+    width: 64px;
 }
 
 #progress{
@@ -678,6 +760,15 @@ ul{
 	top: 100px;
 	left: 0;
 	z-index: 9999;
+}
+
+.Button3:hover {
+    font-size: 17px;
+}
+
+.Button3 a:hover {
+    background-color: rgb(77, 75, 75);
+    transition: all 1s;
 }
 
 .Button3 a:link{
@@ -697,9 +788,75 @@ ul{
     width: 200px;
     transition: all 0.5s;
     cursor: pointer;
-    margin: 5px;    
+    margin-top: 20px;    
 }
 
 .Button3 a:visited {
     color: rgb(245,245,245);
+}
+
+.camillez {
+    transition: all 2s;
+}
+
+.lorane {
+    transition: all 2s;
+}
+
+.kevin {
+    transition: all 2s;
+}
+
+.camille {
+    transition: all 2s;
+}
+
+.dimitri {
+    transition: all 2s;
+}
+
+.celian {
+    transition: all 2s;
+}
+
+.camillez:hover {
+    height : 150%;
+    width : 150%;
+    transition: all 2s;
+    font-size: 21px;
+}
+
+.lorane:hover {
+    height : 150%;
+    width : 150%;
+    transition: all 2s;
+    font-size: 21px;
+}
+
+.kevin:hover {
+    height : 150%;
+    width : 150%;
+    transition: all 2s;
+    font-size: 21px;
+}
+
+.camille:hover {
+    height : 150%;
+    width : 150%;
+    transition: all 2s;
+    font-size: 21px;
+}
+
+.dimitri:hover {
+    height : 150%;
+    width : 150%;
+    transition: all 2s;
+    font-size: 21px;
+}
+
+.celian:hover {
+    height : 150%;
+    width : 150%;
+    transition: all 2s;
+    font-size: 21px;
 }
