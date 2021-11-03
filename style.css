@@ -70,22 +70,63 @@ p span {
 
 
 /* -----PAGE INTRO----- */
-#h-100{
-    width: 100%;
-    height: 100%;
-    background-repeat: no-repeat;
+#demarrage1{
+  background-size: 100% 100%;
+  background-image: url(/image/Desert.png);
+  background-repeat: no-repeat;  
 }
 
-#imageVoiture{
+#demarrage2{
+  background-size: 100% 100%;
+  background-image: url(/image/desert.jpg);
+  background-repeat: no-repeat;  
+}
+
+#imageVoiture1{
     width: 60%;
 }
 
+#imageVoiture2{
+    width: 60%;
+}
 
 /* COMMENT NOUS AIDER */
 .aide{
     color:rgb(179, 110, 66);
 
 }
+
+.shiny-btn{
+  color: #C06B35;
+  font-weight: bold;
+  font-size: 1.5rem;
+  text-decoration: none;
+  text-transform: uppercase;
+  padding:10px 22.5px;
+  background-color: white;
+  transition: all .5s;
+  background-size: contain;
+  background-position: -200px center;
+  background-repeat: no-repeat;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+  border-radius:50px;
+}
+
+.shiny-btn:hover{
+    transform: scale(1.1);
+    background-position: -60px;
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16), 0 3px 6px rgba(0,0,0,0.23);
+}
+
+
+.shiny-btn:active{
+    transform: scale(1);
+    background-position: 500px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+
+  
+  
 
 
 /* L'EQUIPE */

@@ -1,22 +1,24 @@
  
- window.addEventListener('load', function () {    
-//     let theImg2 = document.getElementById('h-100');
-//     console.log("width :"+theImg2.width)
-//     console.log("height :"+theImg2.height)
-//     console.log('----------------------------')
-//     console.log('window.innerWidth:',window.innerWidth+"px")
-//     console.log('window.innerHeight:',window.innerHeight+"px")
-//     console.log('----------------------------')
-//     theImg2.style.height = window.innerHeight+'px';
-//     theImg2.style.width = window.innerWidth+'px';
-//     console.log("width :"+theImg2.width)
-//     console.log("height :"+theImg2.height)
+ window.addEventListener('load', function () {  
+  document.getElementById('demarrage1').style.height = window.innerHeight+'px';
+  document.getElementById('demarrage1').style.width = window.innerWidth+'px';
+  save1 = window.innerHeight + 200
+  save2 = window.innerWidth + 200
+  document.getElementById('demarrage2').style.height = save1+'px';
+  document.getElementById('demarrage2').style.width = save2+'px';
   document.getElementById('test11').style.display = "block";
   document.getElementById('test22').style.display = "none";
   updateView();
  });
 
+
 window.addEventListener('resize', function () {    
+  document.getElementById('demarrage1').style.height = window.innerHeight+'px';
+  document.getElementById('demarrage1').style.width = window.innerWidth+'px';
+  save1 = window.innerHeight + 200
+  save2 = window.innerWidth + 200
+  document.getElementById('demarrage2').style.height = save1+'px';
+  document.getElementById('demarrage2').style.width = save2+'px';
   updateView();
 });
 
@@ -94,15 +96,37 @@ function changementDiv4(){
     div2.style.display = "block";
   }
 }
+function changementDiv5(){  
+  div1 = document.getElementById('demarrage1')
+  div2 = document.getElementById('demarrage2')
+  
+  
+  if(div1.style.display = "block"){
+    div1.style.display = "none";
+    div2.style.display = "block";
+  }
+}
+
+function changementDiv6(){  
+  div1 = document.getElementById('demarrage1')
+  div2 = document.getElementById('demarrage2')
+  
+  if(div1.style.display = "none"){
+    div1.style.display = "block";
+    div2.style.display = "none";
+  }
+}
 
 function updateView() {
   console.log("categorieTaille: "+bootstrapDetectBreakpoint().index)
   if(bootstrapDetectBreakpoint().index<=1){
     changementDiv1()
     changementDiv3()
+    changementDiv5()
   }else{
     changementDiv2()
     changementDiv4()
+    changementDiv6()
   }
 }
 
