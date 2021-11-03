@@ -2,8 +2,8 @@
  window.addEventListener('load', function () {  
   document.getElementById('demarrage1').style.height = window.innerHeight+'px';
   document.getElementById('demarrage1').style.width = window.innerWidth+'px';
-  save1 = window.innerHeight + 200
-  save2 = window.innerWidth + 200
+  save1 = window.innerHeight + 50
+  save2 = window.innerWidth + 10
   document.getElementById('demarrage2').style.height = save1+'px';
   document.getElementById('demarrage2').style.width = save2+'px';
   document.getElementById('test11').style.display = "block";
@@ -15,8 +15,8 @@
 window.addEventListener('resize', function () {    
   document.getElementById('demarrage1').style.height = window.innerHeight+'px';
   document.getElementById('demarrage1').style.width = window.innerWidth+'px';
-  save1 = window.innerHeight + 200
-  save2 = window.innerWidth + 200
+  save1 = window.innerHeight + 10
+  save2 = window.innerWidth + 120
   document.getElementById('demarrage2').style.height = save1+'px';
   document.getElementById('demarrage2').style.width = save2+'px';
   updateView();
@@ -122,12 +122,16 @@ function updateView() {
   if(bootstrapDetectBreakpoint().index<=1){
     changementDiv1()
     changementDiv3()
-    changementDiv5()
   }else{
     changementDiv2()
     changementDiv4()
+  }
+  if(bootstrapDetectBreakpoint().index<1){
+    changementDiv5()
+  }else{
     changementDiv6()
   }
+
 }
 
 // ------------

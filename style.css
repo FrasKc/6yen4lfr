@@ -78,16 +78,16 @@ p span {
 
 #demarrage2{
   background-size: 100% 100%;
-  background-image: url(/image/desert.jpg);
+  background-image: url(/image/desertt.png);
   background-repeat: no-repeat;  
 }
 
 #imageVoiture1{
-    width: 60%;
+    width: 90%;
 }
 
 #imageVoiture2{
-    width: 60%;
+    width: 70%;
 }
 
 /* COMMENT NOUS AIDER */
