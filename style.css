@@ -1,29 +1,44 @@
+@import url("https://use.typekit.net/pus6lba.css");
+
 html{
     overflow-x: hidden;
     background-color:rgb(219, 219, 219) ;
 }
 
 h1{
+    font-family: 'acumin-pro';
+    font-style: normal;
+    font-weight: 400;
     color:white;
 }
 
 h2{
+    font-family: 'acumin-pro';
+    font-style: normal;
+    font-weight: 400;
     color:white;
 }
 
 ul{
+    font-family: 'acumin-pro';
+    font-style: normal;
+    font-weight: 400;
     list-style-type: none;
     /* background-color: blue; */
     padding: auto;
 }
 p{
-    font-family: 'Circular Std Bold',Tahoma, Geneva, Verdana, sans-serif;
+    font-family: 'acumin-pro';
+    font-style: normal;
+    font-weight: 400;
 }
 p span {
     color:rgb(104, 50, 32);;
 }
 
 .gras{
+    font-family: 'acumin-pro';
+    font-weight: 400;
     font:bold;
 }
 
@@ -33,10 +48,16 @@ p span {
 }
 
 .titre{
+    font-family: 'acumin-pro';
+    font-weight: 400;
+    font:bold;
     color: rgb(104, 50, 32);
 }
 
 .titrePrincipal{
+    font-family: 'acumin-pro';
+    font-weight: 400;
+    font:bold;
     color: rgb(104, 50, 32);
     font-size: calc(40px + .10vw);
     
@@ -97,8 +118,9 @@ p span {
 }
 
 .shiny-btn{
+  font-family: 'acumin-pro';
   color: #C06B35;
-  font-weight: bold;
+  font-style: bold;
   font-size: 1.5rem;
   text-decoration: none;
   text-transform: uppercase;
