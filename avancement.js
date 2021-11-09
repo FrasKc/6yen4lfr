@@ -16,6 +16,7 @@ window.addEventListener('resize', function () {
   save1 = window.innerHeight + 10
   document.getElementById('demarrage2').style.height = save1+'px';
   updateView();
+
 });
 
 
