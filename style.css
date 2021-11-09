@@ -255,6 +255,10 @@ div.scrollmenu a {
   width: 16%;
 }
 
+.imageSponsor3{
+  width: 70%;
+}
+
   /* --------------------- */
   
   
@@ -309,7 +313,7 @@ div.scrollmenu a {
 
 #scrollToTopBtn{
   position: fixed;
-  right: 5%;
+  right: 20%;
   top:90%;
   background-color: rgb(58, 58, 58);
   opacity: 50%;
