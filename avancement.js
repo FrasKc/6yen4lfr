@@ -5,7 +5,7 @@
   save1 = window.innerHeight + 50
   save2 = window.innerWidth + 10
   document.getElementById('demarrage2').style.height = save1+'px';
-  document.getElementById('demarrage2').style.width = save2+'px';
+  // document.getElementById('demarrage2').style.width = save2+'px';
   document.getElementById('test11').style.display = "block";
   document.getElementById('test22').style.display = "none";
   updateView();
@@ -18,7 +18,7 @@ window.addEventListener('resize', function () {
   save1 = window.innerHeight + 10
   save2 = window.innerWidth + 120
   document.getElementById('demarrage2').style.height = save1+'px';
-  document.getElementById('demarrage2').style.width = save2+'px';
+  // document.getElementById('demarrage2').style.width = save2+'px';
   updateView();
 });
 
