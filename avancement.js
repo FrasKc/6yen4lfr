@@ -3,7 +3,7 @@
   document.getElementById('demarrage1').style.height = window.innerHeight+'px';
   document.getElementById('demarrage1').style.width = window.innerWidth+'px';
   save1 = window.innerHeight + 50
-  document.getElementById('demarrage2').style.height = save1+'px';
+  // document.getElementById('demarrage2').style.height = save1+'px';
   document.getElementById('test11').style.display = "block";
   document.getElementById('test22').style.display = "none";
   updateView();
@@ -16,7 +16,6 @@ window.addEventListener('resize', function () {
   save1 = window.innerHeight + 10
   document.getElementById('demarrage2').style.height = save1+'px';
   updateView();
-
 });
 
 
@@ -149,7 +148,6 @@ function updateView() {
   }else{
     changementDiv6()
   }
-
 }
 
 // ------------

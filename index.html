@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-  
+  <script src="/avancement.js"></script>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -15,21 +15,584 @@
 
 <body>
   <!-- NAV BAR -->
-
+  <div class="bg overflow-hidden" style="z-index:2; width:100%;background-color: #FFFFFF;">
+    <div class="container">
+      <div class="row">
+        <nav class="col navbar navbar-expand-lg navbar-light">
+          <img src="/image/logotmarron.png" class="navbar-brand" href="index.html" style="width: 10%;" />
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div id="navbarContent" class="collapse navbar-collapse">
+            <ul class="navbar-nav">
+              <li class="nav-item centre active">
+                <a class="nav-link" href="#presentation">Présentation</a>
+              </li>
+              <li class="nav-item centre">
+                <a class="nav-link" href="#mediatisation">La médiatisation</a>
+              </li>
+              <li class="nav-item centre">
+                <a class="nav-link" href="#programme">Programme</a>
+              </li>
+              <li class="nav-item centre">
+                <a class="nav-link" href="#aide">Nous aider</a>
+              </li>
+              <li class="nav-item centre">
+                <a class="nav-link" href="#equipe">L'équipe</a>
+              </li>
+              <li class="nav-item centre">
+                <a class="nav-link" href="#contact">Nous Contacter</a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </div>
+    </div>
 
 
     <!-- PROGRESS BAR -->
+    <div class="progress-container overflow-hidden">
+      <div class="progress-bar" id="myBar"></div>
+    </div>
+  </div>
 
 
+  <!-- IMAGE DEBUT -->
+    <div class="container-fluide" id="demarrage1">
+      <div class="row" style="height:100%;">
+        <div class="col-12 col-md-5 col-lg-6" style="margin-top: 20%; padding-left:10%;">
+          <h1><strong>6Y en 4L</strong></h1>
+          <h2><strong>Participant au 4L TROPHY 2022</strong></h2>
+          <a href="image/sponso.pdf" target="_blank" class="shiny-btn"><strong>Sponsorisez-nous !</strong></a>
+        </div>
+        <div class="col-12 col-md-7 col-lg-6">
+          <img src="/image/4L.png" id="imageVoiture1">
+        </div>
+      </div>
+    </div>
+
+    <!-- <div class="container-fluide" id="demarrage2" style="display: none;">
+      <div class="row">
+        <div class="col-12 col-lg-6 justify-content-center"style="margin-top: 20%;">
+          <h1>6Y en 4L</h1>
+          <h2>Participant au 4L TROPHY 2022</h2>
+          <a href="image/sponso.pdf" target="_blank" class="shiny-btn">Sponsorisez-nous !</a>
+        </div>
+        <div class="col-12 col-lg-6">
+          <img src="/image/4L.png" id="imageVoiture2">
+        </div>
+      </div>
+    </div> -->
 
 
 
   <!--PRESENTATION RAID -->
+  <div class="container-fluide" id="presentationXl"style="background-color: #ECECEC;">
+    <div class="row justify-content-center">
+      <p class="titrePrincipal" id="presentation"><strong>Presentation du raid</strong></p>
+    </div>
+    <div class="row justify-content-center align-items-center decalage">
+      <div class="col-12 col-lg-6">
+        <div class="row justify-content-center" style="margin-bottom: 30px;">
+          <div class="col-12 col-lg-7">
+            <div class="h5 titre">
+              <img src="/image/icon/Icon_1.png" alt="" srcset="">
+            <strong>Qu'est-ce que le 4L TROPHY ?</strong>
+            </div>
+            <p style="margin-left: 60px; margin-top:-10px;">Le 4L Trophy est le plus grand raid humanitaire, solidaire et sportif d’Europe dédié aux jeunes et
+              étudiants de toute nationalité, âgés de 18 à 28 ans ! Chaque année, ce n’est pas moins de 2400
+              participants qui partent à l’aventure pour un parcours de plus de 6000 km à travers la France, l’Espagne
+              et le Maroc, le tout à bord de la mythique 4L ! </p>
+          </div>
+        </div>
+        <div class="row justify-content-center" style="margin-bottom: 30px;">
+          <div class="col-12 col-lg-7">
+            <div class="h5 titre">
+              <img src="/image/icon/Icon_2.png" alt="" srcset="">
+            <strong>Quel est le but ?</strong>
+            </div>
+            <p style="margin-left: 60px; margin-top:-10px;">Au volant de leur 4L les trophystes devront arpenter le désert afin d'acheminer des fournitures scolaires
+              et sportives aux enfants les plus démunis grâce à l'association "Enfants du Désert". Mais c'est aussi 12
+              tonnes de denrées alimentaires récoltées chaque année au départ du raid, soit plus de 24 000 repas
+              distribués à des familles françaises dans le besoin.</p>
+          </div>
+        </div>
+        <div class="row justify-content-center" style="margin-bottom: 30px;">
+          <div class="col-12 col-lg-7">
+            <div class="h5 titre">
+              <img src="/image/icon/Icon_3.png" alt="" srcset="">
+            <strong>Quelles sont nos motivations ?</strong>
+            </div>
+            <p style="margin-left: 60px; margin-top:-10px;">Le 4L Trophy est selon nous un défi humanitaire, sportif mais aussi humain ! A travers ce raid nous
+              pourrons aider à notre échelles et avec nos moyens les populations locales. Cette course sera également
+              riche en péripéties. Ces dernières seront cependant surmontées, grâce à l’entraide entre les différents
+              équipages ayant comme objectif commun, le surpassement de soi. Cette aventure nous permettra également de
+              découvrir une population avec une culture qui lui est propre et des coutumes différentes des nôtres. Nous
+              sortirons grandis de ces découvertes et de ces échanges.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-6 centre" style="margin-bottom: 3%;">
+        <!-- modifier la dimension de l'image pour l'overflow -->
+        <img src="/image/Illustration_projet.png" style="width: 70%;" alt="">
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluide" id="presentationXs"style="background-color: #ECECEC; display: none">
+    <div class="row justify-content-center">
+      <p class="titrePrincipal" id="presentation">Presentation du raid</p>
+    </div>
+    <div class="row justify-content-center align-items-center decalage">
+      <div class="col-12 col-lg-6 centre" style="margin-bottom: 8%;">
+        <img src="/image/Illustration_projet.png" style="width: 70%;" alt="">
+      </div>
+      <div class="col-12 col-lg-6">
+        <div class="row justify-content-center" style="margin-bottom: 30px;">
+          <div class="col-12 col-lg-7">
+            <div class="h5 titre">
+              <img src="/image/icon/Icon_1.png" alt="" srcset="">
+              <strong>Qu'est-ce que le 4L TROPHY ?</strong>
+            </div>
+            <p style="margin-left: 60px; margin-top:-10px;">Le 4L Trophy est le plus grand raid humanitaire, solidaire et sportif d’Europe dédié aux jeunes et
+              étudiants de toute nationalité, âgés de 18 à 28 ans ! Chaque année, ce n’est pas moins de 2400
+              participants qui partent à l’aventure pour un parcours de plus de 6000 km à travers la France, l’Espagne
+              et le Maroc, le tout à bord de la mythique 4L ! </p>
+          </div>
+        </div>
+        <div class="row justify-content-center" style="margin-bottom: 30px;">
+          <div class="col-12 col-lg-7">
+            <div class="h5 titre">
+              <img src="/image/icon/Icon_2.png" alt="" srcset="">
+            <strong>Quel est le but ?</strong>
+            </div>
+            <p style="margin-left: 60px; margin-top:-10px;">Au volant de leur 4L les trophystes devront arpenter le désert afin d'acheminer des fournitures scolaires
+              et sportives aux enfants les plus démunis grâce à l'association "Enfants du Désert". Mais c'est aussi 12
+              tonnes de denrées alimentaires récoltées chaque année au départ du raid, soit plus de 24 000 repas
+              distribués à des familles françaises dans le besoin.</p>
+          </div>
+        </div>
+        <div class="row justify-content-center" style="margin-bottom: 30px;">
+          <div class="col-12 col-lg-7">
+            <div class="h5 titre">
+              <img src="/image/icon/Icon_3.png" alt="" srcset="">
+              <strong>Quelles sont nos motivations ?</strong>
+            </div>
+            <p style="margin-left: 60px; margin-top:-10px;">Le 4L Trophy est selon nous un défi humanitaire, sportif mais aussi humain ! A travers ce raid nous
+              pourrons aider à notre échelles et avec nos moyens les populations locales. Cette course sera également
+              riche en péripéties. Ces dernières seront cependant surmontées, grâce à l’entraide entre les différents
+              équipages ayant comme objectif commun, le surpassement de soi. Cette aventure nous permettra également de
+              découvrir une population avec une culture qui lui est propre et des coutumes différentes des nôtres. Nous
+              sortirons grandis de ces découvertes et de ces échanges.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 
+  <!-- MEDIATISATION DU 4L -->
+  <!-- mettre l'image en dessous du texte pour les petits ecrans -->
+  <div class="container-fluide" id="mediatisation" style="padding-bottom: -2%;">
+    <div class="row justify-content-center align-items-center decalage">
+      <div class="col-12 col-lg-6 centre">
+        <img src="/image/Illustration_média.png" style="width: 70%;" alt="">
+      </div>
+      <div class="col-12 col-lg-4" style="margin-bottom: 8%;margin-top: 8%;">
+        <p class="h4 titre" style="margin-bottom: 30px;"><strong>La médiatisation du 4L TROPHY :</strong></p>
+        <p><span><strong>• LA TELEVISION</strong></span>, les chaines régionales de France 3 ainsi que celles de France O ont diffusé au
+        quotidien le raid. Les médias à forte audience et des médias thématiques ont également retransmis des
+        nouvelles de la course. <span style="color:orange">8 heures</span> de diffusions TV et une centaine de reportages ont ainsi pu être proposées.
+        </p>
+        <p><span><strong>• LES RADIOS</strong></span> ne sont pas en reste, avec de nombreuses émissions. Ce sont plus de <span style="color:orange">3 heures</span> de
+        diffusion qui ont été proposées aux auditeurs.</p>
+        <p><span><strong>• LA PRESSE ECRITE</strong></span>, <span style="color:orange">2000 articles</span> ont paru dans les quotidiens régionaux, mais aussi dans les
+        nationaux.</p>
+        <p><span><strong>• LA PRESSE WEB</strong></span>, avec plus de <span style="color:orange">3 000 articles</span> nationaux et régionaux publiés sur des sites
+        d’informations ou sites sportifs, sans oublier la pub sur les réseaux sociaux.</p>
+        <p><span><strong>• LES MEDIAS ETRANGERS</strong></span> ont également diffusé cet événement. Comme par exemple en Belgique
+        (Dernière Heure les sports, La Gazette, RTBF, TV Bruxelles…) en Suisse (Le Temps…) et au Maroc (2M,
+        Aujourd’hui le Maroc…).</p>
+        </div>
+        <div id="chiffre"></div>
+    </div>
+  </div>
 
 
+  <!-- LES CHIFFRES -->
+  <div class="jumbotron" style="background-color: #ECECEC; color:#B34242;">
+    <div class="container-fluide">
+      <div class="row justify-content-center">
+        <p style="font-size: 4vw;">LE 4L TROPHY EN CHIFFRES, C'EST</p>
+      </div>
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-6 col-lg-3 centre">
+          <p class="h1 gras">3000 jeunes</p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 centre">
+          <p class="h1 gras">1500 equipages</p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 centre">
+          <p class="h1 gras">12 jours d'aventure</p>
+        </div>
+        <div class="col-12 col-md-6 col-lg-3 centre">
+          <p class="h1 gras">6500km parcourus</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- LE PROGRAMME -->
+  <div class="container-fluide" id="programme">
+    <div class="row justify-content-center">
+      <p class="titrePrincipal"><strong>Le programme</strong></p>
+    </div>
+
+    <div class="row align-items-center decalage">
+      <div class="col-12 col-lg-5">
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <h5 class="titre"><strong>BIARRITZ :</strong></h5>
+            <p>Le "Village départ" ouvre des portes pour accueillir le lancement du 4L Trophy ! Au programme,
+              traditionnelles vérifications techniques, administratives et médicales. Premiers échanges entre Trophistes
+              et élection de la plus belle 4L avant le grand départ !</p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <h5 class="titre"><strong>ALGECIRAS :</strong></h5>
+            <p>Traversée libre de l'Espagne pour des centaines de 4L jusqu'à Algeciras, port d'embarquement vers Tanger.
+              Une étape-liaison au cours de laquelle les équipages découvrent l'atmosphère unique du "4L".</p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <h5 class="titre"><strong>TANGER :</strong></h5>
+            <p>Après la traversée du Détroit de Gibraltar, les 4L débarquent au Maroc, à Tanger. Découverte des premiers
+              paysages montagneux puis désertiques, les Trophistes entrent dans le vif du sujet !</p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <h5 class="titre"><strong>BOULAJOUL :</strong></h5>
+            <p>La compétition sportive est lancée ! Guidées par les boussoles, les 4L filent vers les portes du Sahara.
+              Au cœur de paysages somptueux, les concurrents découvrent enfin l'immensité du désert, la piste et ses
+              bacs à sable, redoutables pièges qu'ils espèrent déjouer.</p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <h5 class="titre"><strong>MERZOUGA :</strong></h5>
+            <p>Dans cette petite ville du sud du Sahara, proche de la frontière algérienne, les dons matériels collectés
+              et acheminés par les Trophistes en faveur des enfants défavorisés, sont remis à l'association "Enfants du
+              Désert".</p>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div class="col-12">
+            <h5 class="titre"><strong>MARRAKECH :</strong></h5>
+            <p>Après une journée libre dans Marrakech, rendez-vous est pris "Chez Ali" pour le gala de clôture du 4L
+              Trophy. Diner traditionnel avec cérémonie de remise des prix aux grands vainqueurs de la compétition.
+              Ultime soirée pour célébrer en beauté la merveilleuse épopée des Trophistes.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-lg-7 centre" style="margin-bottom: 3%;">
+        <img src="/image/PARCOURS.png" style="width: 60%;" alt="">
+      </div>
+    </div>
+  </div>
+
+
+  <!-- COMMENT NOUS AIDER -->
+  <div class="jumbotron" id="aide" style="background-color: #ECECEC;">
+    <div class="container-fluide">
+      <div class="row justify-content-center" style="margin-bottom: 3%;">
+        <p class="titrePrincipal centre"><strong>Comment nous aider?</strong></p>
+      </div>
+      <div id="aideXl">
+        <div class="row">
+          <div class="col-12 col-lg-4 aide">
+            <p class="h2 centre ">PARTENARIAT FINANCIER</p>
+            <p>Cette action consiste en l’achat d’un encart publicitaire positionné sur la 4L. Les prix varient en
+              fonction de l’emplacement choisi. Cet argent nous permettra de constituer en grosse partie de notre budget !
+              Mais le partenariat financier c’est gagnant-gagnant ! En nous aidant financièrement, vous permettez à votre
+              entreprise d’accentuer sa visibilité. Avec votre logo, vous serez visibles dans toute la France, sur les
+              réseaux au minimum un an, mais aussi en Espagne et au Maroc, tout au long du Raid. Un véhicule circulant en
+              milieu urbain génère 7000 contacts visuels par jour !</p>
+          </div>
+          <div class="col-12 col-lg-4 aide">
+            <p class="h2 centre ">DONS, MECENAT</p>
+            <p>Le don est aussi un moyen simple de nous aider et de nous soutenir dans cette grande aventure qu’est le 4L
+              Trophy ! Pour ce faire, nous avons mis en place une cagnotte en ligne, qui vous permettra de contribuer
+              anonymement, si vous le souhaitez et selon vos moyens. Par le statut de notre Association, les dons sont de
+              plus, défiscalisés à hauteur de 60 %.</p>
+          </div>
+          <div class="col-12 col-lg-4 aide">
+            <p class="h2 centre ">PARTENARIAT EN NATURE</p>
+            <p>Vous pouvez aussi nous aider à la préparation de la 4L en fournissant des biens matériels tels que :
+              • Pièces mécaniques détachées
+              • Equipements obligatoire (fusée de détresse, boussole, extincteur, jerrican, trousse de secours, trousse à
+              outils, carte routière...)
+              • Fournitures scolaires et sportives pour l'association "Enfants du Désert"
+              • Denrées alimentaires non périssables pour la Croix Rouge</p>
+          </div>
+        </div>
+      </div>
+      <div id="aideXs" style="display: none;">
+        <div class="row">
+          <div class="col-12">
+            <div class="row justify-content-center">
+            <div class="contenue">
+              <div class="centrage">
+                <div class="test">
+                  <strong>PARTENARIAT FINANCIER</strong> 
+                </div>
+                <div class="fleche-haut" id="fleche-haut1"onclick="activation1()">
+                </div>
+                <div class="fleche-bas" id="fleche-bas1" onclick="activation1()"style="display:none;">
+                </div>  
+              </div>
+              <ul class="textDiv">
+                <div class="pretest"id="activation1">
+                  <div class="test">      
+                    <div class="separation"></div>
+                    <p>Cette action consiste en l’achat d’un encart publicitaire positionné sur la 4L. Les prix varient en
+                      fonction de l’emplacement choisi. Cet argent nous permettra de constituer en grosse partie de notre budget !
+                      Mais le partenariat financier c’est gagnant-gagnant ! En nous aidant financièrement, vous permettez à votre
+                      entreprise d’accentuer sa visibilité. Avec votre logo, vous serez visibles dans toute la France, sur les
+                      réseaux au minimum un an, mais aussi en Espagne et au Maroc, tout au long du Raid. Un véhicule circulant en
+                      milieu urbain génère 7000 contacts visuels par jour !</p>
+                  </div>
+                </div>
+              </ul>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="contenue">
+              <div class="centrage">
+                <div class="test">
+                  <strong>DON, MECENAT</strong>
+                </div>
+                  <div class="fleche-haut" id="fleche-haut2"onclick="activation2()">  
+                  </div>
+                  <div class="fleche-bas" id="fleche-bas2" onclick="activation2()"style="display:none;">
+                  </div> 
+              </div>
+              <ul class="textDiv">
+                <div class="pretest"id="activation2">
+                  <div class="test">      
+                    <div class="separation"></div>
+                    <p>Le don est aussi un moyen simple de nous aider et de nous soutenir dans cette grande aventure qu’est le 4L
+                      Trophy ! Pour ce faire, nous avons mis en place une cagnotte en ligne, qui vous permettra de contribuer
+                      anonymement, si vous le souhaitez et selon vos moyens. Par le statut de notre Association, les dons sont de
+                      plus, défiscalisés à hauteur de 60 %.</p>
+                  </div>
+                </div>
+              </ul>
+            </div> 
+          </div>
+          <div class="row justify-content-center">
+            <div class="contenue">
+              <div class="centrage">
+                <div class="test">
+                  <strong>PARTENERIAT EN NATURE</strong>  
+                </div>
+                  <div class="fleche-haut" id="fleche-haut3"onclick="activation3()">  
+                  </div>
+                  <div class="fleche-bas"  id="fleche-bas3" onclick="activation3()"style="display:none;">
+                  </div> 
+              </div>
+              <ul class="textDiv">
+                <div class="pretest"id="activation3">
+                  <div class="test">      
+                    <div class="separation"></div>
+                    <p>Vous pouvez aussi nous aider à la préparation de la 4L en fournissant des biens matériels tels que :
+                      • Pièces mécaniques détachées
+                      • Equipements obligatoire (fusée de détresse, boussole, extincteur, jerrican, trousse de secours, trousse à
+                      outils, carte routière...)
+                      • Fournitures scolaires et sportives pour l'association "Enfants du Désert"
+                      • Denrées alimentaires non périssables pour la Croix Rouge</p>
+                  </div>
+                </div>
+              </ul>
+            </div>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <button href="image/sponso.pdf" target="_blank" class="bt">Dossier de Sponsoring</button>
+      </div>
+    </div>
+  </div>
+
+
+    
+  <!-- L'EQUIPE -->
+  <!-- modifier les boutons de scroll pour les petits ecrans -->
+  <div id="equipe">
+    <div class="container">
+      <div class="row justify-content-center">
+        <p class="titrePrincipal"><strong>L'équipe 6Y en 4L</strong></p>
+      </div>
+      <div class="row">
+        <div class="col justify-content-center">
+          <p>Nous sommes 6 étudiants en Création et Désign, Marketing et Communication et en Informatique à YNOV Lyon Campus.
+          Le 4L Trophy est pour nous, plus qu'un simple voyage ! C'est un projet extrêmement formateur intégrant de nombreux
+          défis à relever. Une expérience exceptionnelle, un dépassement de soi mais surtout, un beau test d'endurance et de
+          détermination qui saura nous révéler pour notre entrée dans la vie active. La beauté de cet évènement c'est
+          également son côté humanitaire, l'accent mis sur la solidarité et l'engagement éco-citoyen, des valeurs fortes,
+          qui nous tiennent particulièrement à cœur.</p>
+        </div>
+      </div>
+      <div class="row" id="test22">
+        <div class="col-12 scrollmenu" id="scrollmenu">
+          <a>
+            <div class="containerScroll">
+              <img src="/image/equipe/Icon_Camille.png">
+              <p class="Id">ZWICK Camille</p>
+              <p class="post">Chef de projet</p>
+            </div>      
+          </a>
+          <a>
+            <div class="containerScroll">
+              <img src="/image/equipe/Icon_Celian.png">
+              <p class="Id">FRASCA Celian</p>
+              <p class="post">Informatique</p>
+            </div>      
+          </a>
+          <a>
+            <div class="containerScroll">
+              <img src="/image/equipe/Icon_Suzy.png">
+              <p class="Id">PATRAS Suzy</p>
+              <p class="post">Market-Com</p>
+            </div>      
+          </a>
+          <a>
+            <div class="containerScroll">
+              <img src="/image/equipe/Icon_Matheo.png">
+              <p class="Id">GABRIELI Matheo</p>
+              <p class="post">Market-Com</p>
+            </div>      
+          </a>
+          <a>
+            <div class="containerScroll">
+              <img src="/image/equipe/Icon_ArthurGuillauma.png">
+              <p class="Id">GUILLAUMA Arthur</p>
+              <p class="post">Market-Com</p>
+            </div>      
+          </a>
+          <a>
+            <div class="containerScroll">
+              <img src="/image/equipe/Icon_ThomasGaule.png">
+              <p class="Id">GAULE Thomas</p>
+              <p class="post">Informatique</p>
+            </div>      
+          </a>
+          <a>
+            <div class="containerScroll">
+              <img src="/image/equipe/Icon_ThomasCottin.png">
+              <p class="Id">COTTIN Thomas</p>
+              <p class="post">Crea-Motion</p>
+            </div>      
+          </a>
+          <a>
+            <div class="containerScroll">
+              <img src="/image/equipe/Icon_RomainGrenier.png">
+              <p class="Id">GRENIER Romain</p>
+              <p class="post">Informatique</p>
+            </div>      
+          </a>
+          <a>
+            <div class="containerScroll">
+              <img src="/image/equipe/Icon_ArthurBertier.png">
+              <p class="Id">BERTIER Arthur</p>
+              <p class="post">Chef de projet</p>
+            </div>      
+          </a>
+          <a>
+            <div class="containerScroll">
+              <img src="/image/equipe/Icon_RomainBrunet.png">
+              <p class="Id">BRUNET Romain</p>
+              <p class="post">Market-Com</p>
+            </div>      
+          </a>
+        </div>
+        <div class="row">
+          <div class="col-6 centre">
+            <div onclick="move_left()" class="previous round btScroll">&#8249;</div>
+          </div>
+          <div class="col-6 centre">
+            <div onclick="move_right()" class="next round btScroll">&#8250;</div>
+          </div>
+        </div> 
+      </div>
+      <div class="row" id="test11">
+        <div class="row">
+          <div class="col-12 centre">
+            <img class="imageSponsor1"src="/image/equipe/Icon_Camille.png">
+            <p>ZWICK Camille</p>
+            <p>Chef de projet</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 centre">
+            <img class="imageSponsor"src="/image/equipe/Icon_Celian.png">
+            <p>FRASCA Célian</p>
+            <p>Informatique</p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 centre">
+            <img class="imageSponsor" src="/image/equipe/Icon_Suzy.png">
+            <p>PATRAS Suzy</p>
+            <p>Market-Com</p>
+          </div>
+          <div class="col-12 col-md-12 col-lg-4 centre">
+            <img class="imageSponsor"src="/image/equipe/Icon_Matheo.png">
+            <p>GABRIELI Mathéo</p>
+            <p>Market-Com</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 centre">
+            <img class="imageSponsor"src="/image/equipe/Icon_ArthurGuillauma.png">
+            <p>GUILLAUMA Arthur</p>
+            <p>Market-Com</p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 centre">
+            <img class="imageSponsor"src="/image/equipe/Icon_ThomasGaule.png">
+            <p>GAULE Thomas</p>
+            <p>Informatique</p>
+          </div>
+          <div class="col-12 col-md-12 col-lg-4 centre">
+            <img class="imageSponsor"src="/image/equipe/Icon_ThomasCottin.png">
+            <p>COTTIN Thomas</p>
+            <p>Crea-Motion</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 centre">
+            <img class="imageSponsor"src="/image/equipe/Icon_RomainGrenier.png">
+            <p>GRENIER Romain</p>
+            <p>Informatique</p>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 centre">
+            <img class="imageSponsor"src="/image/equipe/Icon_ArthurBertier.png">
+            <p>BERTIER Arthur</p>
+            <p>Informatique</p>
+          </div>
+          <div class="col-12 col-md-12 col-lg-4 centre">
+            <img class="imageSponsor"src="/image/equipe/Icon_RomainBrunet.png">
+            <p>BRUNET Romain</p>
+            <p>Market-Com</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
   <!-- NOS AVENTURES -->
   <!-- mettre le bon compte insta -->
@@ -53,12 +616,54 @@
   </div>
 
 
+  <!-- NOS PARTENERIAT -->
+  <div class="container-fluide" id="parteneriat">
+    <div class="row justify-content-center">
+      <p class="titrePrincipal"><strong>NOS PARTENARIATS</strong></p>
+    </div>
+    <div class="row justify-content-center">
+      <p>Devenez partenaire de cette merveilleuse aventure et vous aurez la chance de voir apparaitre votre logo ci-dessous ! </p>
+    </div>
+    <div class="row justify-content-center" >
+        <div class="col-6 col-lg-3 centre" style="margin-bottom: 30px;">
+          <a href="#home">
+              <img class="imageSponsor3" src="/image/logo-part/MGa.png">
+          </a>
+        </div>
+        <div class="col-6 col-lg-3 centre"style="margin-bottom: 30px;">
+          <a href="#home">
+            <img class="imageSponsor3"src="/image/logo-part/promecaa.png">
+          </a>
+        </div>
+        <div class="col-6 col-lg-3 centre"style="margin-bottom: 30px;">
+          <a href="#home" >
+            <img class="imageSponsor3" src="/image/logo-part/wallbach1.png">
+          </a>
+        </div>
+        <div class="col-6 col-lg-3 centre"style="margin-bottom: 30px;">
+          <a href="#home">
+            <img class="imageSponsor3" src="/image/logo-part/ynov_campusa.png">
+          </a>
+      </div>
+    </div>
+  </div>
 
-
-  
+  <!-- CONTACTEZ NOUS -->
+  <!-- changer le background-color du formulaire -->
+  <div class="container-fluide" style="background-color: #ECECEC;">
+    <div class="container">
+      <div class="row justify-content-center align-items-center">
+        <p class="titrePrincipal" id="contact"><strong>Contactez-nous</strong></p>
+      </div>
+      <div class="row align-items-center">
+       <script type="text/javascript" defer src="https://form.123formbuilder.com/embed/5750095.js" data-role="form"></script>
+      </div>
+    </div>
+  </div>
 
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://cdn.lightwidget.com/widgets/lightwidget.js"></script>
+    <script src="/bootstrap-detect-breakpoint.js"></script>
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
       integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
       crossorigin="anonymous"></script>
@@ -68,8 +673,8 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
       integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
       crossorigin="anonymous"></script>
-  </div>
 </body>
+
 <footer>
   <div class="container-fluide footer" style="display: none;">
     <div class="row justify-content-center">
@@ -175,6 +780,6 @@
       </div>
     </div>
   </div>
-  <button id="scrollToTopBtn" onclick="scrollToTop()">☝️</button>
+  <!-- <button id="scrollToTopBtn" onclick="scrollToTop()">☝️</button> -->
 </footer>
 </html>
