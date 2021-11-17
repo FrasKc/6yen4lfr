@@ -121,6 +121,7 @@ p span {
 .shiny-btn{
   font-family: 'acumin-pro';
   position: relative;
+  text-decoration: none;
   top:10px;
   color: #C06B35;
   font-style: bold;
@@ -139,6 +140,9 @@ p span {
 
 .shiny-btn:hover{
     padding:15px 28.5px;
+    text-decoration: none;
+    color: #C06B35;
+    font-size: 1.8rem;
     background-position: -60px;
     box-shadow: 0 6px 12px rgba(0,0,0,0.16), 0 6px 12px rgba(0,0,0,0.23);
 }
