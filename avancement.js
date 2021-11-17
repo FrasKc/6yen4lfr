@@ -116,15 +116,36 @@ function changementDiv6(){
     div2.style.display = "none";
   }
 }
+function changementDiv7(){  
+  div1 = document.getElementById('presentationXl')
+  div2 = document.getElementById('presentationXs')
+  
+  if(div2.style.display = "none"){
+    div2.style.display = "block";
+    div1.style.display = "none";
+  }
+}
+
+function changementDiv8(){  
+  div1 = document.getElementById('presentationXl')
+  div2 = document.getElementById('presentationXs')
+  
+  if(div1.style.display = "none"){
+    div1.style.display = "block";
+    div2.style.display = "none";
+  }
+}
 
 function updateView() {
   console.log("categorieTaille: "+bootstrapDetectBreakpoint().index)
   if(bootstrapDetectBreakpoint().index<=1){
     changementDiv1()
     changementDiv3()
+    changementDiv7()
   }else{
     changementDiv2()
     changementDiv4()
+    changementDiv8()
   }
   if(bootstrapDetectBreakpoint().index<1){
     changementDiv5()
