@@ -84,7 +84,7 @@ p span {
     width: 0%;
 }
 
-/* -----PAGE INTRO----- */
+/* -----ACCEUIL----- */
 #demarrage1{
   background-size: 100% 100%;
   background-image: url(/image/Desert.png);
@@ -99,12 +99,17 @@ p span {
 
 #imageVoiture1{
     position: relative;
-    top:20%;
+    top:29%;
     width: 80%;
 }
 
 #imageVoiture2{
     width: 70%;
+}
+
+.btAcceuil{
+  position: relative;
+  top:40px;
 }
 
 /* PRESENTATION PROJET */
@@ -132,10 +137,11 @@ p span {
 
 }
 
+
 .shiny-btn{
   font-family: 'acumin-pro';
   position: relative;
-  top:10px;
+  top:20px;
   color: #C06B35;
   font-style: bold;
   font-size: 1.5rem;
