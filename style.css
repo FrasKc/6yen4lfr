@@ -232,6 +232,7 @@ div.scrollmenu a {
     height:55px;
     border-radius:10px;
     border:none;
+    text-align: center;
     background-color:#C06B35;
     color:white;
     font-size:19px;
@@ -239,7 +240,8 @@ div.scrollmenu a {
   
   .bt:hover{
     background-color:rgb(224, 88, 3);
-    
+    color: white;
+    text-decoration: none;
   }
 
   /* --------------------- */
