@@ -222,28 +222,29 @@ div.scrollmenu a {
     width:250px;
     height:3px;
     background-color:#AEAEAE;
-    
+    margin-bottom: 20px;
     margin-left: auto;
     margin-right: auto;
   }
 
   .bt{ 
-    width:200px;
-    height:55px;
-    border-radius:10px;
-    border:none;
-    text-align: center;
-    background-color:#C06B35;
-    color:white;
+    width:250px;
+    height:70px;
+    border-width: 5px;
+    border-radius: 100px;
+    border-color:#C06B35;
+    transition: 0.3s;
+    background-color:white;
+    color: #C06B35;
     font-size:19px;
   }
   
-  .bt:hover{
-    background-color:rgb(224, 88, 3);
-    color: white;
-    text-decoration: none;
-  }
 
+.bt:hover{
+  transition: 0.3s;
+  background-color: #C06B35;
+  color : white;
+}
   /* --------------------- */
 
   #aideXs{
