@@ -12,15 +12,14 @@ html{
 h1{
     font-family: 'acumin-pro';
     font-style: normal;
-    font-weight: 600;
-    color:white;
-}
-
-h2{
-    font-family: 'acumin-pro';
-    font-style: normal;
     font-weight: 400;
     color:white;
+}
+h2{
+  font-family: 'acumin-pro';
+  font-style: normal;
+  font-weight: 400;
+  color:white;
 }
 
 ul{
@@ -28,7 +27,6 @@ ul{
     font-style: normal;
     font-weight: 400;
     list-style-type: none;
-    /* background-color: blue; */
     padding: auto;
 }
 p{
@@ -63,7 +61,7 @@ p span {
     font-family: 'acumin-pro';
     font:bold;
     color: rgb(104, 50, 32);
-    font-size: calc(40px + .10vw);
+    font-size: calc(90px + .10vw);
 }
 
 .decalage{
