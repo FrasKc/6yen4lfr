@@ -1,6 +1,5 @@
 @import url("https://use.typekit.net/pus6lba.css");
-
- *{
+*{
   max-width: 100vw;
 } 
 
@@ -61,7 +60,7 @@ p span {
     font-family: 'acumin-pro';
     font:bold;
     color: rgb(104, 50, 32);
-    font-size: calc(90px + .10vw);
+    font-size: calc(10px + 4vw);
 }
 
 .decalage{
@@ -376,3 +375,4 @@ div.scrollmenu a {
 .round {
   border-radius: 50%;
 }
+
