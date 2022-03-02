@@ -163,6 +163,7 @@ p span {
     text-decoration: none;
     color: #C06B35;
     font-size: 1.8rem;
+    transition: all 1s;
     background-position: -60px;
     box-shadow: 0 6px 12px rgba(0,0,0,0.16), 0 6px 12px rgba(0,0,0,0.23);
 }
@@ -248,7 +249,7 @@ div.scrollmenu a {
   }
 
   .bt{ 
-    width:250px;
+    width:230px;
     height:70px;
     transition: 1s;
     border-width: 5px;
