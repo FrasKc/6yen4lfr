@@ -19,7 +19,7 @@
   <div class="bg" style="z-index:2; width:100%;background-color: #FFFFFF;">
     <div class="container">
       <div class="row">
-        <nav class="col navbar navbar-expand-lg navbar-light">
+        <nav class="col navbar navbar-expand-lg navbar-default navbar-fixed-top navbar-light">
           <img src="/image/logotmarron.png" class="navbar-brand" href="index.html" style="width: 10%;" />
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -69,7 +69,7 @@
         </div>
         <div class="col-12 col-md-7 col-lg-6">
           <img src="/image/4L.png" id="imageVoiture1">
-        </div>
+          <div id="presentation"></div>
       </div>
     </div>
 
@@ -89,9 +89,9 @@
 
 
   <!--PRESENTATION RAID -->
-  <div class="container-fluide" id="presentationXl"style="background-color: #ECECEC;">
+  <div class="container-fluide" id="presentationXs"style="background-color: #ECECEC;">
     <div class="row justify-content-center">
-      <p class="titrePrincipal" id="presentation"><strong>Présentation du raid</strong></p>
+      <p class="titrePrincipal" ><strong>Présentation du raid</strong></p>
     </div>
     <div class="row justify-content-center align-items-center decalage">
       <div class="col-12 col-lg-6">
@@ -143,7 +143,7 @@
 
   <div class="container-fluide" id="presentationXs"style="background-color: #ECECEC; display: none">
     <div class="row justify-content-center">
-      <p class="titrePrincipal" id="presentation">Presentation du raid</p>
+      <p class="titrePrincipal" >Presentation du raid</p>
     </div>
     <div class="row justify-content-center align-items-center decalage">
       <div class="col-12 col-lg-6 centre" style="margin-bottom: 8%;">
@@ -191,12 +191,11 @@
       </div>
     </div>
   </div>
-
-
+  <div id="mediatisation"></div>
 
   <!-- MEDIATISATION DU 4L -->
   <!-- mettre l'image en dessous du texte pour les petits ecrans -->
-  <div class="container-fluide" id="mediatisation" style="padding-bottom: -2%;">
+  <div class="container-fluide"  style="padding-bottom: -2%;">
     <div class="row justify-content-center align-items-center decalage">
       <div class="col-12 col-lg-6 centre">
         <img src="/image/Illustration_média.png" style="width: 70%;" alt="">
@@ -239,6 +238,7 @@
           <p class="h1 gras">12 jours d'aventure</p>
         </div>
         <div class="col-12 col-md-6 col-lg-3 centre">
+          <div id="programme"></div>
           <p class="h1 gras">6500km parcourus</p>
         </div>
       </div>
@@ -247,7 +247,7 @@
 
 
   <!-- LE PROGRAMME -->
-  <div class="container-fluide" id="programme">
+  <div class="container-fluide">
     <div class="row justify-content-center">
       <p class="titrePrincipal"><strong>Le programme</strong></p>
     </div>
@@ -295,6 +295,8 @@
         <div class="row justify-content-center">
           <div class="col-12">
             <h5 class="titre"><strong>MARRAKECH :</strong></h5>
+            <div id="aide">
+            </div>
             <p>Après une journée libre dans Marrakech, rendez-vous est pris "Chez Ali" pour le gala de clôture du 4L
               Trophy. Diner traditionnel avec cérémonie de remise des prix aux grands vainqueurs de la compétition.
               Ultime soirée pour célébrer en beauté la merveilleuse épopée des Trophistes.</p>
@@ -424,6 +426,7 @@
         </div>
       </div>
       <div class="row justify-content-center">
+        <div id= "equipe"></div>
       <button class="bt" onclick=" window.open('image/sponso.pdf','_blank')"> Dossier de Sponsoring</button>
       </div>
     </div>
@@ -433,7 +436,7 @@
     
   <!-- L'EQUIPE -->
   <!-- modifier les boutons de scroll pour les petits ecrans -->
-  <div id= "equipe">
+  <div id="zep">
     <div class="container">
       <div class="row justify-content-center">
         <p class="titrePrincipal"><strong>L'équipe 6Y en 4L</strong></p>
@@ -454,70 +457,70 @@
             <div class="containerScroll">
               <img src="/image/equipe/Icon_Camille.png">
               <p class="Id">ZWICK Camille</p>
-              <p class="post">Chef de projet</p>
+              <p class="poste">Chef de projet</p>
             </div>      
           </a>
           <a>
             <div class="containerScroll">
               <img src="/image/equipe/Icon_Celian.png">
               <p class="Id">FRASCA Celian</p>
-              <p class="post">Informatique</p>
+              <p class="poste">Informatique</p>
             </div>      
           </a>
           <a>
             <div class="containerScroll">
               <img src="/image/equipe/Icon_Suzy.png">
               <p class="Id">PATRAS Suzy</p>
-              <p class="post">Market-Com</p>
+              <p class="poste">Market-Com</p>
             </div>      
           </a>
           <a>
             <div class="containerScroll">
               <img src="/image/equipe/Icon_Matheo.png">
               <p class="Id">GABRIELI Matheo</p>
-              <p class="post">Market-Com</p>
+              <p class="poste">Market-Com</p>
             </div>      
           </a>
           <a>
             <div class="containerScroll">
               <img src="/image/equipe/Icon_ArthurGuillauma.png">
               <p class="Id">GUILLAUMA Arthur</p>
-              <p class="post">Market-Com</p>
+              <p class="poste">Market-Com</p>
             </div>      
           </a>
           <a>
             <div class="containerScroll">
               <img src="/image/equipe/Icon_ThomasGaule.png">
               <p class="Id">GAULE Thomas</p>
-              <p class="post">Informatique</p>
+              <p class="poste">Informatique</p>
             </div>      
           </a>
           <a>
             <div class="containerScroll">
               <img src="/image/equipe/Icon_ThomasCottin.png">
               <p class="Id">COTTIN Thomas</p>
-              <p class="post">Crea-Motion</p>
+              <p class="poste">Crea-Motion</p>
             </div>      
           </a>
           <a>
             <div class="containerScroll">
               <img src="/image/equipe/Icon_RomainGrenier.png">
               <p class="Id">GRENIER Romain</p>
-              <p class="post">Informatique</p>
+              <p class="poste">Informatique</p>
             </div>      
           </a>
           <a>
             <div class="containerScroll">
               <img src="/image/equipe/Icon_ArthurBertier.png">
               <p class="Id">BERTIER Arthur</p>
-              <p class="post">Chef de projet</p>
+              <p class="poste">Chef de projet</p>
             </div>      
           </a>
           <a>
             <div class="containerScroll">
               <img src="/image/equipe/Icon_RomainBrunet.png">
               <p class="Id">BRUNET Romain</p>
-              <p class="post">Market-Com</p>
+              <p class="poste">Market-Com</p>
             </div>      
           </a>
         </div>
@@ -535,58 +538,58 @@
           <div class="col-12 centre membre-anim">
             <img class="imageSponsor"src="/image/equipe/Icon_Camille.png">
             <p>ZWICK Camille</p>
-            <p>Chef de projet</p>
+            <p class="poste">Chef de projet</p>
           </div>
         </div>
         <div class="row">
           <div class="col-12 col-md-6 col-lg-4 centre membre-anim">
             <img class="imageSponsor"src="/image/equipe/Icon_Celian.png">
             <p>FRASCA Célian</p>
-            <p>Informatique</p>
+            <p class="poste">Informatique</p>
           </div>
           <div class="col-12 col-md-6 col-lg-4 centre membre-anim">
             <img class="imageSponsor" src="/image/equipe/Icon_Suzy.png">
             <p>PATRAS Suzy</p>
-            <p>Market-Com</p>
+            <p class="poste">Market-Com</p>
           </div>
           <div class="col-12 col-md-12 col-lg-4 centre membre-anim">
             <img class="imageSponsor"src="/image/equipe/Icon_Matheo.png">
             <p>GABRIELI Mathéo</p>
-            <p>Market-Com</p>
+            <p class="poste">Market-Com</p>
           </div>
         </div>
         <div class="row">
           <div class="col-12 col-md-6 col-lg-4 centre membre-anim">
             <img class="imageSponsor"src="/image/equipe/Icon_ArthurGuillauma.png">
             <p>GUILLAUMA Arthur</p>
-            <p>Market-Com</p>
+            <p class="poste">Market-Com</p>
           </div>
           <div class="col-12 col-md-6 col-lg-4 centre membre-anim">
             <img class="imageSponsor"src="/image/equipe/Icon_ThomasGaule.png">
             <p>GAULE Thomas</p>
-            <p>Informatique</p>
+            <p class="poste">Informatique</p>
           </div>
           <div class="col-12 col-md-12 col-lg-4 centre membre-anim">
             <img class="imageSponsor"src="/image/equipe/Icon_ThomasCottin.png">
             <p>COTTIN Thomas</p>
-            <p>Crea-Motion</p>
+            <p class="poste">Crea-Motion</p>
           </div>
         </div> 
         <div class="row">
           <div class="col-12 col-md-6 col-lg-4 centre membre-anim">
             <img class="imageSponsor"src="/image/equipe/Icon_RomainGrenier.png">
             <p>GRENIER Romain</p>
-            <p>Informatique</p>
+            <p class="poste">Informatique</p>
           </div>
           <div class="col-12 col-md-6 col-lg-4 centre membre-anim">
             <img class="imageSponsor"src="/image/equipe/Icon_ArthurBertier.png">
             <p>BERTIER Arthur</p>
-            <p>Informatique</p>
+            <p class="poste">Informatique</p>
           </div>
           <div class="col-12 col-md-12 col-lg-4 centre membre-anim">
             <img class="imageSponsor"src="/image/equipe/Icon_RomainBrunet.png">
             <p>BRUNET Romain</p>
-            <p>Market-Com</p>
+            <p class="poste">Market-Com</p>
           </div> 
         </div>
       </div>
@@ -661,6 +664,7 @@
       </div>
       <div class="col-6 col-xl-3 centre"style="margin-bottom: 30px">
         <a href="https://www.astic-emballage.fr/" target="_blank" >
+          <div id="contact"></div>
           <img class="imageSponsor7" src="/image/logo-part/Astic_Emballage-Logo-2021-1.png">
         </a>
     </div>
@@ -671,7 +675,7 @@
   <div class="container-fluide" style="background-color: #ECECEC;">
     <div class="container">
       <div class="row justify-content-center align-items-center">
-        <p class="titrePrincipal" id="contact"><strong>Contactez-nous</strong></p>
+        <p class="titrePrincipal"><strong>Contactez-nous</strong></p>
       </div>
       <div class="row align-items-center">
        <script type="text/javascript" defer src="https://form.123formbuilder.com/embed/5750095.js" data-role="form"></script>
@@ -697,6 +701,64 @@
       crossorigin="anonymous"></script>
 </body>
 <footer>
+  <div class="container-fluide footer">
+    <div class="row justify-content-center">
+      <div class="col-12 col-lg-2 centre">
+        <img src="/image/logotblanc.png" style="width: 100%; max-width: 200px; min-width: 50px;" />
+      </div>
+      <div class="col-6 col-lg-2 justify-content-center" style="margin-top: 20px;">
+        <div class="row justify-content-center">
+          <div>
+            <p class="h4 ">Liens utile</p>
+          </div>
+        </div>
+        <div class="row justify-content-center align-items-center">
+          <ul>
+            <!-- faire les bonnes redirection -->
+            <li><a href="#top" style="text-decoration: none; color:whitesmoke;">Acceuil</a></li>
+            <li><a href="#presentation" style="text-decoration: none;color:whitesmoke;">Le raid</a></li>
+            <li><a href="#programme" style="text-decoration: none;color:whitesmoke;">Le programme</a></li>
+            <li><a href="#equipe" style="text-decoration: none;color:whitesmoke;">L'équipe</a></li>
+            <!-- <li><a href="#chiffres" style="text-decoration: none;color:whitesmoke;">Blog</a></li> -->
+          </ul>
+        </div>
+      </div>
+      <div class="col-6 col-lg-3" style="margin-top: 20px;">
+        <div class="row justify-content-center">
+          <p class="h4">Contact</p>
+        </div>
+        <div class="row justify-content-center">
+          <ul>
+            <li>Adresse : 6Y en 4L</li>
+            <li>27 rue Raoul Servant</li>
+            <li>69007 Lyon</li>
+            <li>Tél : 07 82 26 54 22</li>
+            <li>E-Mail : 6yen4l@gmail.com</li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-12 col-lg-3" style="margin-top: 20px;">
+        <div class="row justify-content-center">
+          <p class="h4">Nous Suivres</p>
+        </div>
+        <div class="row">
+          <div class="col-4 centre ">
+            <a href="https://www.facebook.com/6Y-en-4L-112686517277743" target="_blank">
+            <img src="/image/reseau-sociaux/facebook.png" alt="" srcset="">
+          </div>
+          <div class="col-4 centre">
+            <a href="https://www.instagram.com/6yen4l/" target="_blank">
+            <img src="/image/reseau-sociaux/instagram.png" alt="" srcset="">
+          </div>
+          <div class="col-4 centre">
+            <a href="https://www.linkedin.com/company/6y-en-4l/" target="_blank">
+            <img src="/image/reseau-sociaux/linkedin.png" alt="" srcset="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- <button id="scrollToTopBtn" onclick="scrollToTop()">☝️</button> -->
   <div class="container-fluide footer" style="display: none;">
     <div class="row justify-content-center">
       <div class="col-12 col-lg-2 centre">
@@ -752,61 +814,5 @@
       </div>
     </div>
   </div>
-  <div class="container-fluide footer">
-    <div class="row justify-content-center">
-      <div class="col-12 col-lg-2 centre">
-        <img src="/image/logotblanc.png" style="width: 100%; max-width: 200px; min-width: 50px;" />
-      </div>
-      <div class="col-6 col-lg-2 justify-content-center" style="margin-top: 20px;">
-        <div class="row justify-content-center">
-          <p class="h4 ">Liens utile</p>
-        </div>
-        <div class="row justify-content-center align-items-center">
-          <ul>
-            <!-- faire les bonnes redirection -->
-            <li><a href="#top" style="text-decoration: none; color:whitesmoke;">Acceuil</a></li>
-            <li><a href="#presentation" style="text-decoration: none;color:whitesmoke;">Le raid</a></li>
-            <li><a href="#programme" style="text-decoration: none;color:whitesmoke;">Le programme</a></li>
-            <li><a href="#equipe" style="text-decoration: none;color:whitesmoke;">L'équipe</a></li>
-            <!-- <li><a href="#chiffres" style="text-decoration: none;color:whitesmoke;">Blog</a></li> -->
-          </ul>
-        </div>
-      </div>
-      <div class="col-6 col-lg-3" style="margin-top: 20px;">
-        <div class="row justify-content-center">
-          <p class="h4">Contact</p>
-        </div>
-        <div class="row justify-content-center">
-          <ul>
-            <li>Adresse : 6Y en 4L</li>
-            <li>27 rue Raoul Servant</li>
-            <li>69007 Lyon</li>
-            <li>Tél : 07 82 26 54 22</li>
-            <li>E-Mail : 6yen4l@gmail.com</li>
-          </ul>
-        </div>
-      </div>
-      <div class="col-12 col-lg-3" style="margin-top: 20px;">
-        <div class="row justify-content-center">
-          <p class="h4">Nous Suivres</p>
-        </div>
-        <div class="row">
-          <div class="col-4 centre ">
-            <a href="https://www.facebook.com/6Y-en-4L-112686517277743" target="_blank">
-            <img src="/image/reseau-sociaux/facebook.png" alt="" srcset="">
-          </div>
-          <div class="col-4 centre">
-            <a href="https://www.instagram.com/6yen4l/" target="_blank">
-            <img src="/image/reseau-sociaux/instagram.png" alt="" srcset="">
-          </div>
-          <div class="col-4 centre">
-            <a href="https://www.linkedin.com/company/6y-en-4l/" target="_blank">
-            <img src="/image/reseau-sociaux/linkedin.png" alt="" srcset="">
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-  <!-- <button id="scrollToTopBtn" onclick="scrollToTop()">☝️</button> -->
 </footer>
 </html>
